@@ -1,4 +1,5 @@
 # Android VIPER
+![Android Pull Request & Master CI](https://github.com/Allan-Nava/AndroidVIPER/workflows/Android%20Pull%20Request%20&%20Master%20CI/badge.svg)
 
 <img src="https://koenig-media.raywenderlich.com/uploads/2020/02/viper.png">
 
