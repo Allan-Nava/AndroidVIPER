@@ -1,5 +1,6 @@
 package com.example.androidviper.BaseNav
 
+import android.graphics.drawable.Drawable
 import com.example.androidviper.BaseActivity.BaseActivity
 
 /**
@@ -29,5 +30,13 @@ abstract  class BaseNavActivity : BaseActivity(), BaseNavContracts.View {
     }
     //endregion
 
+
+    override fun showErrorDialog(error: String?) {
+
+    }
+
+    override fun showCustomDialog(string: String, icon: Drawable?) {
+
+    }
 
 }

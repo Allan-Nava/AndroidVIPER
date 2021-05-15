@@ -36,4 +36,6 @@ abstract class BaseNavFragment : BaseFragment(), BaseNavContracts.View {
 
     // endregion
 
+
+
 }
