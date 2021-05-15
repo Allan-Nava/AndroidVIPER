@@ -2,6 +2,7 @@ package com.example.androidviper.MainNav
 
 import android.content.Context
 import com.example.androidviper.BaseActivity.BaseContracts
+import com.example.androidviper.BaseNav.BaseNavContracts
 
 /**
  * Created by Allan Nava on 15/05/2021.
@@ -22,7 +23,7 @@ object MainNavContracts {
         //fun findUser()
     }
 
-    interface Router : BaseContracts.Router {
+    interface Router : BaseNavContracts.Router {
         //fun presentLoginView()
     }
 
