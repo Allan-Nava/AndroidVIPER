@@ -13,7 +13,7 @@ import okhttp3.RequestBody
 open class BaseRemoteInteractor {
     val apiService: RestApiInterface =  ApiClient.client.create(RestApiInterface::class.java)
 
-    val JSON: MediaType = "application/json; charset=utf-8".toMediaType()
+    /*val JSON: MediaType = "application/json; charset=utf-8".toMediaType()
 
     fun createBodyWith(map: Map<String, Any>?): RequestBody {
         val gson = GsonBuilder().create()
@@ -21,7 +21,7 @@ open class BaseRemoteInteractor {
         Log.i("OKHTTP-Parameters", json.toString())
         return RequestBody.Companion.create( JSON, json )
         //return RequestBody.create(okhttp3.MediaType.parse("application/json; charset=utf-8"), json.toString())
-    }
+    }*/
 
     fun createBearerHeader(bearer: String): HashMap<String, String> {
         val map = HashMap<String, String>()

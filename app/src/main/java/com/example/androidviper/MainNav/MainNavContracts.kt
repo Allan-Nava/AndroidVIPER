@@ -10,12 +10,11 @@ import com.example.androidviper.BaseNav.BaseNavContracts
  */
 object MainNavContracts {
 
-    interface View :  BaseContracts.View {
+    interface View :  BaseNavContracts.View {
     }
 
-    interface Presenter :  BaseContracts.Presenter {
-        fun handleUserState()
-        fun didSelectedHome()
+    interface Presenter :  BaseNavContracts.Presenter {
+
     }
 
     interface Interactor : BaseContracts.Interactor {

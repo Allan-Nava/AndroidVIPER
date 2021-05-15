@@ -1,6 +1,6 @@
 package com.example.androidviper.BaseActivity
 
-import com.example.androidviper.RemoteResponses.API.Factory.API_ASE_URL
+import com.example.androidviper.RemoteResponses.API.Factory.API_BASE_URL
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 /**
  * Created by Allan Nava on 23/03/2021.
- * Updated by Allan Nava on 23/03/2021.
+ * Updated by Allan Nava on 15/05/2021.
  */
 class ApiClient {
 
