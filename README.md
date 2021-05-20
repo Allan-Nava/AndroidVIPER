@@ -7,7 +7,7 @@
 
 VIPER is an architectural approach for iOS mobile app development based on the paradigm of Uncle Bob's clean architecture, which gradually began to penetrate with Android. The word VIPER is an abbreviation for View, Interactor, Presenter, Entity, and Router.
 
-## Defintions
+## Defintions
 
 In Viper architecture, each block corresponds to an object with specific tasks, inputs and outputs. It is very similar to workers in an assembly line: once the worker completes its job on an object, the object is passed along to the next worker, until the product is finished.
 
